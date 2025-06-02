@@ -15,14 +15,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: pip install PyYAML jsonschema
 
-      - name: Download poemlint.py
-        run: curl -sSL https://gist.githubusercontent.com/bbkingisking/badb73095f8d782ec12d0a22282a4086/raw/c9784b0b6f912c31017d8f56022408d617f933e3/poemlint.py -o poemlint.py
+      - name: Download validator and schema files
+        run: |
+          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/poemlint.py -o poemlint.py
+          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/poem.schema.json -o poem.schema.json
+          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/iso-639-3.tab -o iso-639-3.tab
+          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/iso15924.txt -o iso15924.txt
 
       - name: Validate all poems
         run: python poemlint.py .
-
