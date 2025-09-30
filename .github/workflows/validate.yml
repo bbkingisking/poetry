@@ -25,8 +25,7 @@ jobs:
 
       - name: Validate all poems
         run: |
-          # Find all .poem files in the current repository
           find . -name "*.poem" -type f | while read -r poem_file; do
             echo "Validating: $poem_file"
-            ./poem-schema/validators/rust/target/release/poem-validator "$poem_file"
+            ./poem-schema/validators/rust/target/release/validate-poem "$poem_file"
           done
