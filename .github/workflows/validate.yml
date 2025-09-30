@@ -12,20 +12,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
 
-      - name: Install dependencies
-        run: pip install PyYAML jsonschema
+      - name: Clone poem-schema repository
+        run: git clone https://github.com/bbkingisking/poem-schema.git
 
-      - name: Download validator and schema files
+      - name: Build Rust validator
         run: |
-          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/poemlint.py -o poemlint.py
-          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/poem.schema.json -o poem.schema.json
-          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/iso-639-3.tab -o iso-639-3.tab
-          curl -sSL https://raw.githubusercontent.com/bbkingisking/poem-schema/main/iso15924.txt -o iso15924.txt
+          cd poem-schema/validators/rust
+          cargo build --release
 
       - name: Validate all poems
-        run: python poemlint.py .
+        run: |
+          # Find all .poem files in the current repository
+          find . -name "*.poem" -type f | while read -r poem_file; do
+            echo "Validating: $poem_file"
+            ./poem-schema/validators/rust/target/release/poem-validator "$poem_file"
+          done
