@@ -2,3 +2,10 @@ personal/
 ai/
 .DS_Store
 
+# Exclude authors whose work is copyrighted
+e-e-cummings*
+pablo-neruda*
+philip-larkin*
+tennessee-williams*
+t-s-eliot*
+w-h-auden*
