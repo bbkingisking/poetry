@@ -29,3 +29,18 @@ jobs:
             echo "Validating: $poem_file"
             ./poem-schema/validators/rust/target/release/validate-poem "$poem_file"
           done
+
+  trigger-build:
+    runs-on: ubuntu-latest
+    needs: lint
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.DEPLOY_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'bbkingisking',
+              repo: 'bbkingisking.github.io',
+              event_type: 'content-updated'
+            })
