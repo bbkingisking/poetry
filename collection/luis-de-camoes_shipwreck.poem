@@ -3,6 +3,8 @@ canonical:
   title: Shipwreck
   author: Luís de Camões
   language: eng
+  translator: William Baer
+  isbn: "0226092666"
   text: |
     Like the weary sailor, the refugee
     from wreck and storm, who escapes half-dead,
@@ -19,9 +21,9 @@ canonical:
     and so, I return to where, on that fateful day,
     I nearly drowned in your tempestuous sea.
 original:
-  title: Shipwreck
   author: Luís de Camões
   language: por
+  isbn: "0226092666"
   text: |
     Como quando do mar tempestuoso
     o marinheiro, lasso e trabalhado,

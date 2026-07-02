@@ -3,6 +3,8 @@ canonical:
   title: Tagus
   author: Luís de Camões
   language: eng
+  translator: William Baer
+  isbn: "0226092666"
   text: |
     Gentle waters of the Tagus, you flow
     across the fields, nourishing the herds,
@@ -19,9 +21,9 @@ canonical:
     to breathe my sighs in the airs of foreign lands,
     disturbing distant waters with my tears
 original:
-  title: Tagus
   author: Luís de Camões
   language: por
+  isbn: "0226092666"
   text: |
     Brandas águas do Tejo que, passando
     por estes verdes campos que regais,

@@ -2,6 +2,7 @@
 canonical:
   author: Cecco Angiolieri
   language: eng
+  isbn: "9781847494634"
   text: |
     I feel my heart within my bosom beating,
     So strong within me is the dread and fear,
@@ -20,6 +21,7 @@ canonical:
 original:
   author: Cecco Angiolieri
   language: ita
+  isbn: "9781847494634"
   text: |2
       Il cuore in corpo mi sento tremare,
     si fort’è la temenza e la paura,
