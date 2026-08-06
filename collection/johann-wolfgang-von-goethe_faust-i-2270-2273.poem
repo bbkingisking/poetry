@@ -1,0 +1,22 @@
+---
+canonical:
+  title: Faust I 2270-2273
+  author: Johann Wolfgang von Goethe
+  language: eng
+  translator: David Luke
+  isbn: "9780199536214"
+  text: |
+    Foreigners have their uses, I suppose;
+    Home’s best, but some good things just can’t be had.
+    A Frenchman stinks in every decent German’s nose—
+    But when one’s drinking, well, their wine’s not bad.
+original:
+  title: Faust I 2270-2273
+  author: Johann Wolfgang von Goethe
+  language: deu
+  source: "https://www.gutenberg.org/ebooks/2229"
+  text: |
+    Man kann nicht stets das Fremde meiden
+    Das Gute liegt uns oft so fern.
+    Ein echter deutscher Mann mag keinen Franzen leiden,
+    Doch ihre Weine trinkt er gern.
