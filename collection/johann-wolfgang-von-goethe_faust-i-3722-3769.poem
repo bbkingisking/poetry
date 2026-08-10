@@ -3,6 +3,7 @@ canonical:
   title: Faust I 3722-3769
   author: Johann Wolfgang von Goethe
   language: eng
+  drama: true
   translator: David Luke
   isbn: "9780199536214"
   text: |
@@ -70,6 +71,7 @@ original:
   title: Faust I 3722-3769
   author: Johann Wolfgang von Goethe
   language: deu
+  drama: true
   source: "https://www.gutenberg.org/ebooks/2229"
   text: |
     VALENTIN.
