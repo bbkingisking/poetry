@@ -1,0 +1,23 @@
+---
+canonical:
+  title: Tao Te Ching, Chapter 75
+  author: Lao Tzu
+  translator: Stephen Mitchell
+  source: "https://terebess.hu/english/tao/mitchell.html"
+  language: eng
+  text: |
+    When taxes are too high,
+    people go hungry.
+    When the government is too intrusive,
+    people lose their spirit.
+
+    Act for the people’s benefit.
+    Trust them; leave them alone.
+original:
+  title: 道德經 七十五章
+  author: 老子
+  language: lzh
+  source: "https://ctext.org/dao-de-jing/zh?node=11666"
+  rtl: true
+  vertical: true
+  text: 民之飢以其上食稅之多是以飢民之難治以其上之有為是以難治民之輕死以其求生之厚是以輕死夫唯無以生為者是賢於貴生
