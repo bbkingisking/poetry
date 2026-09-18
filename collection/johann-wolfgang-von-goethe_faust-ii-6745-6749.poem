@@ -1,0 +1,27 @@
+---
+canonical:
+  title: Faust II 6745-6749
+  author: Johann Wolfgang von Goethe
+  language: eng
+  translator: David Luke
+  isbn: "9780199536214"
+  text: |
+    Greenhorns don’t like to hear the honest truth
+    One tells it plain to unsuspecting youth
+    Who will learn it themselves the painful way
+    Years later. Then of course they’ll say
+    Their own brains were their only school
+    And their old erstwhile teacher was a fool.
+original:
+  title: Faust II 6745-6749
+  author: Johann Wolfgang von Goethe
+  language: deu
+  source: "https://www.gutenberg.org/ebooks/2230"
+  text: |
+    Wenn man der Jugend reine Wahrheit sagt,
+    Die gelben Schnäbeln keineswegs behagt,
+    Sie aber hinterdrein nach Jahren
+    Das alles derb an eigner Haut erfahren,
+    Dann dünkeln sie, es käm' aus eignem Schopf;
+    Da heißt es denn: der Meister war ein Tropf.
+
