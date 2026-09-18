@@ -1,0 +1,27 @@
+---
+canonical:
+  title: Faust II 7172-7177
+  author: Johann Wolfgang von Goethe
+  language: eng
+  translator: David Luke
+  isbn: "9780199536214"
+  text: |
+    So this is music nowadays!
+    A scrape of strings, a well-tuned throat,
+    All intertwining note with note;
+    A pointless tra-la-la! It plays
+    A tickle-tinkle on my ear,
+    But leaves my heart untouched, I fear.
+original:
+  title: Faust II 6745-6749
+  author: Johann Wolfgang von Goethe
+  language: deu
+  source: "https://www.gutenberg.org/ebooks/2230"
+  text: |
+    Das sind die saubern Neuigkeiten,
+    Wo aus der Kehle, von den Saiten
+    Ein Ton sich um den andern flicht.
+    Das Trallern ist bei mir verloren:
+    Es krabbelt wohl mir um die Ohren,
+    Allein zum Herzen dringt es nicht.
+
