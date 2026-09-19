@@ -4,7 +4,7 @@ canonical:
   author: Johann Wolfgang von Goethe
   language: eng
   translator: David Luke
-  isbn: "9780199536214"
+  isbn: "9780199536207"
   text: |
     So this is music nowadays!
     A scrape of strings, a well-tuned throat,
@@ -13,7 +13,7 @@ canonical:
     A tickle-tinkle on my ear,
     But leaves my heart untouched, I fear.
 original:
-  title: Faust II 6745-6749
+  title: Faust II 7172-7177
   author: Johann Wolfgang von Goethe
   language: deu
   source: "https://www.gutenberg.org/ebooks/2230"
